@@ -3,15 +3,35 @@
 	margin: 0;
 	padding: 0;
 }
+body {
+	font-family: 'Quicksand', sans-serif;
+}
 nav {
 	position: sticky;
 }
-body {
-	font-family: 'Open Sans', sans-serif;
-	font-family: 'Quicksand', sans-serif;
-    background-color: #aa6f73;
+
+
+#home {
+	background-color:#efeae5;
+}
+	
+#name {
+	font-weight: 700;
 }
 
+.proj-bg {
+	background-image: url("https://img.freepik.com/free-vector/vintage-ornamental-flowers-background_52683-28040.jpg?w=740&t=st=1660223058~exp=1660223658~hmac=34a0ea335a7fede073ea7a10aac229c73d44c25a9840ff3c42b82d5ac62e9c52");
+
+}
+#projects {
+		font-weight: 700;
+}
+
+
+#logo {
+	height: 70px;
+	width: 50px;
+}
 .bg-color-nav {
 	background-color:#eddbdf;
 }
@@ -23,6 +43,7 @@ body {
 .self-img {
 	height: 300px;
 	width: 300px;
+
 }
 
 .card-bg-1 {
@@ -49,17 +70,48 @@ body {
 	background-color:#eddbdf;
 }
 
+#connect {
+	font-weight: 700;
+}
+
 #crafty {
 	height: 200px;
 	width: 300px;
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
 }
 
 #veggie {
 	height: 200px;
 	width: 300px;
+	display: block;
+  	margin-left: auto;
+  	margin-right: auto;
 }
 
 #prodigy {
 	height: 200px;
+	width: 300px;
+	display: block;
+ 	 margin-left: auto;
+  	margin-right: auto;
+}
+
+#connect {
+	background-color: #a39193;
+}
+
+.mapouter {
+	position: relative;
+	text-align: right;
+	height: 300px;
+	width: 300px;
+}
+
+.gmap_canvas {
+	overflow: hidden;
+	background: none !important;
+	height: 300px;
 	width: 300px;
 }
